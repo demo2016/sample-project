@@ -29,7 +29,7 @@
 namespace sr_sample_cpp_library
 {
 
-this is error !!!
+this is error as it is !!!
 
 std::string SampleCppClass::getParameterValueFromName(const std::string &parameter_name) const
 {
