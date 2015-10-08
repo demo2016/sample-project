@@ -13,7 +13,7 @@ if __name__ == "__main__":
     sample_object = SamplePythonClass()
 
     param_name = "my_python_param"
-    param_value = sample_object.get_parameter_name_from_value(param_name)
+    param_value = sample_object.get_parameter_name_from_value(param_name) # this is very long line which will cause roslint error 1 !!!
 
     rospy.set_param(param_name, param_value)
 
